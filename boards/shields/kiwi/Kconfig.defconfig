@@ -1,0 +1,16 @@
+if SHIELD_KIWI_LEFT
+
+config ZMK_KEYBOARD_NAME
+  default "Kiwi"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+  default y
+
+endif
+
+if SHIELD_KIWI_LEFT || SHIELD_KIWI_RIGHT
+
+config ZMK_SPLIT
+  default y
+
+endif

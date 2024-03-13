@@ -1,0 +1,12 @@
+file_format: "1"
+id: kiwi
+name: Kiwi
+type: shield
+url: https://github.com/gorbit99/kiwi-steno/
+requires: [xiao_ble]
+exposes: []
+features:
+  - keys
+siblings:
+  - kiwi_left
+  - kiwi_right
