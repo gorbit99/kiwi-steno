@@ -7,10 +7,10 @@
         compatible = "zmk,combos";
 
         combo_keyboard_control {
-            bindings = <&to 1>;
+            bindings = <&sl 1>;
             key-positions = <13 24 14 25>;
             require-prior-idle-ms = <1000>;
-            timeout-ms = <1000>;
+            timeout-ms = <50>;
             layers = <0>;
         };
     };
