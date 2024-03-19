@@ -6,10 +6,12 @@
     combos {
         compatible = "zmk,combos";
 
-        to-keyboard-control {
+        combo_keyboard_control {
             bindings = <&to 1>;
             key-positions = <13 24 14 25>;
             require-prior-idle-ms = <1000>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
     };
 
@@ -27,10 +29,10 @@
 
         keyboard-control {
             bindings = <
-  &trans  &trans  &trans  &trans                    &trans      &trans      &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &bt BT_PRV  &bt BT_NXT  &trans  &trans  &bt BT_CLR
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans      &trans  &trans  &trans
-                          &trans  &trans    &trans  &trans
+  &trans  &trans  &trans  &trans                         &trans      &trans      &trans  &trans  &trans
+  &trans  &trans  &trans  &trans       &trans    &trans  &bt BT_PRV  &bt BT_NXT  &trans  &trans  &bt BT_CLR
+  &trans  &trans  &trans  &trans       &trans    &trans  &trans      &trans      &trans  &trans  &trans
+                          &bootloader  &trans    &trans  &trans
             >;
         };
     };
