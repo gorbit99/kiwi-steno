@@ -10,7 +10,7 @@
             bindings = <&sl 1>;
             key-positions = <13 24 14 25>;
             require-prior-idle-ms = <1000>;
-            timeout-ms = <50>;
+            timeout-ms = <200>;
             layers = <0>;
         };
     };
