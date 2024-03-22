@@ -13,4 +13,7 @@ if SHIELD_KIWI_LEFT || SHIELD_KIWI_RIGHT
 config ZMK_SPLIT
   default y
 
+config ZMK_PM_SOFT_OFF
+  default y
+
 endif
