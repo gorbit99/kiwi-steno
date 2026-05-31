@@ -18,4 +18,4 @@
 #
 ---
 board: [ "xiao_ble" ]
-shield: [ "kiwi" ]
+shield: [ "kiwi_left", "kiwi_right" ]
